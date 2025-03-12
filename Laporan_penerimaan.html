@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Membuat Laporan</title>
+    <style>
+        body {
+            background-image: url('rektorat.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif; /* Biar lebih enak dibaca */
+        }
+
+        h1, h2 {
+            color: darkblue; /* Warna yang lebih profesional */
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            background-color: white;
+            margin: 20px auto;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px; /* Biar sudut tabel nggak tajem */
+            overflow: hidden; /* Biar radius kepake */
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: darkblue;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Efek belang untuk setiap baris */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Hover efek biar tabel lebih interaktif */
+        tr:hover {
+            background-color: rgb(81, 157, 239);
+            transition: 0.3s;
+        }
+
+        /* Logo dan judul tengah lebih keren */
+        center img {
+            margin: 10px 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <center>
+        <h1>UNIVERSITAS NEGERI PADANG</h1>
+        <h2>Laporan Penerimaan Mahasiswa Baru</h2>
+        <h2> TA. 2025/2026</h2>
+        <img src="log.png" width="15%" alt="Logo UNP">
+    </center>
+
+    <table>
+        <tr>
+            <th>Nomor</th>
+            <th>Nomor Pendaftaran</th>
+            <th>Nama Mahasiswa</th>
+            <th>Fakultas</th>
+            <th>Departemen</th>
+            <th>Prodi</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>1001</td>
+            <td>Facri Raihan</td>
+            <td>Teknik</td>
+            <td>Elektronika</td>
+            <td>Informatika</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>1002</td>
+            <td>Muhammad Zikri</td>
+            <td>Teknik</td>
+            <td>Elektronika</td>
+            <td>Informatika</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>1003</td>
+            <td>Olivia Rodriguez</td>
+            <td>Ekonomi Bisnis</td>
+            <td>-</td>
+            <td>Bisnis Digital</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>1004</td>
+            <td>Evos Rasya</td>
+            <td>Keolahragaan</td>
+            <td>-</td>
+            <td>Ilmu Olahraga</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>1005</td>
+            <td>RRQ Adit</td>
+            <td>Ilmu Pendidikan</td>
+            <td>Administrasi Pendidikan</td>
+            <td>Pendidikan Guru SD</td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td>1006</td>
+            <td>Evos Galang</td>
+            <td>Bahasa dan Seni</td>
+            <td>Bahasa dan Sastra Indonesia dan Daerah</td>
+            <td>Bahasa Indonesia</td>
+        </tr>
+
+        <tr>
+            <td>7</td>
+            <td>1007</td>
+            <td>Ibnu Khasimiri</td>
+            <td>Ilmu Pendidikan</td>
+            <td>Bimbingan dan Konseling</td>
+            <td>Psikologi</td>
+        </tr>
+
+        <tr>
+            <td>8</td>
+            <td>1008</td>
+            <td>Muhammad Sumbul</td>
+            <td>Matematika dan Ilmu Pengetahuan Alam</td>
+            <td>-</td>
+            <td>Statistika</td>
+        </tr>
+
+        <tr>
+            <td>9</td>
+            <td>1009</td>
+            <td>Usman Kanabawi</td>
+            <td>Teknik</td>
+            <td>Mesin</td>
+            <td>Mesin</td>
+        </tr>
+
+        <tr>
+            <td>10</td>
+            <td>1010</td>
+            <td>Fadil Jaidi</td>
+            <td>Teknik</td>
+            <td>Otomotif</td>
+            <td>Pendidikan Teknik Otomotif</td>
+        </tr>
+    </table>
+
+</body>
+</html>
